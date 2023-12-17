@@ -1,0 +1,65 @@
+body {
+    background-color: aliceblue;
+}
+
+.custom_container {
+    width: 100%;
+}
+
+.hr_custom {
+    width:80%;
+    text-align:center;
+    margin-left:10%;
+    display: flex;
+    border-top: 2px solid rgb(207, 195, 195);
+}
+
+.some-page-wrapper {
+    display: flex;
+    margin: 15px;
+    background-color: red;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.custom_column {
+    /* display: flex; */
+    /* flex-direction: row; */
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0px 75px;
+}
+
+.custom_column .btn-group {
+    width: 280px !important;
+}
+
+.custom_column .custom_submit {
+    width: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2% 10%;
+}
+  
+td, th {
+    border: 1px solid #eae5e5;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.status_message {
+    margin-top: 5px;
+}

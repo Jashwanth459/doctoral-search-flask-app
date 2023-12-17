@@ -1,5 +1,7 @@
 # Depencies
 
+- html
+- css
 - python
 - flask
 - flask_mysqldb
